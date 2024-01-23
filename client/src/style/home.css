@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.all {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input label {
+    margin-bottom: 5px;
+  }
+  
+  .addBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .table thead tr td {
+    color: #269d24;
+    text-align: center;
+    padding: 10px 15px;
+    font-style: oblique;
+    font-family: cursive;
+    background: #e9e9e9;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .logout {
+    background-color: #934b46;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0px;
+    transition: 0.4s;
+  }
+  
+
+
+  button {
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 5px;
+    margin: 2px 1px;
+    transition: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

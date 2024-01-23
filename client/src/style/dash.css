@@ -1,0 +1,84 @@
+/* Ajoutez ces styles dans votre fichier CSS (home.css) ou là où vous gérez les styles */
+
+/* Définissez un style de base pour la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style pour la classe 'alldash' */
+  .alldash {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  /* Style pour les cartes 'carddash' */
+  .carddash {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.4s;
+  }
+
+  .carddash:hover {
+    padding: 30px;
+    background-color: #d2c3c3;
+  } 
+  
+  .carddash b {
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.carddash img {
+    height: 100px;
+    width: 100px;
+}
+
+  /* Style pour la section 'financialdash' */
+  .financialdash {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Style pour le bouton de test */
+  .dashtestbtn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style pour la classe 'testR' */
+  .testR {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* Style pour le lien 'Home' */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
